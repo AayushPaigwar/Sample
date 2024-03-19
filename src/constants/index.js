@@ -262,7 +262,7 @@ export const benefits = [
     text: "Teams equipped with toolkits and clues navigate through college premises, deciphering hints to unveil the next clue's location. The first team to unravel the final clue and reach the destination wins. Utilize provided tools to outwit competitors.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: "../src/assets/games/scan-and-hunt.jpg",
+    imageUrl: "/src/assets/games/scan-and-hunt.jpg",
     // light: true,
   },
   {
