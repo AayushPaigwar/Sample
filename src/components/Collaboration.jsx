@@ -3,21 +3,27 @@ import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
+import Heading from "./Heading"; 
 
 const Collaboration = () => {
   return (
     <Section crosses>
+      <div className="container relative z-2">
+				<Heading
+					className="md:max-w-md lg:max-w-2xl"
+					title="Challenge the Boundaries, Master AI Innovation"
+				/>
       <div className="container lg:flex">
-        <div className="max-w-[25rem]">
+        <div className="max-w-[32rem]">
           <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seamless collaboration
+            About AI Odyssey
           </h2>
 
-          <ul className="max-w-[22rem] mb-10 md:mb-14">
+          <ul className="max-w-[45rem] mb-10 md:mb-14">
             {collabContent.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
                 <div className="flex items-center">
-                  <img src={check} width={24} height={24} alt="check" />
+                  <img src={check} width={18} height={18} alt="check" />
                   <h6 className="body-2 ml-5">{item.title}</h6>
                 </div>
                 {item.text && (
@@ -27,7 +33,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Try it now</Button>
+          <Button href="https://tally.so/r/mBXEe4">Register Now</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
@@ -78,6 +84,23 @@ const Collaboration = () => {
             <RightCurve />
           </div>
         </div>
+
+
+        </div>
+        {/* <ul className="max-w-[45rem] mb-10 md:mb-14">
+            {collabContent.map((item) => (
+              <li className="mb-3 py-3" key={item.id}>
+                <div className="flex items-center">
+                  <img src={check} width={18} height={18} alt="check" />
+                  <h6 className="body-2 ml-5">{item.title}</h6>
+                </div>
+                {item.text && (
+                  <p className="body-2 mt-3 text-n-4">{item.text}</p>
+                )}
+              </li>
+            ))}
+          </ul> */}
+
       </div>
     </Section>
   );

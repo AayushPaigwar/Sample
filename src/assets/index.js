@@ -20,6 +20,10 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
+import chaticon from "./chat-icon.svg";
+import gameicon from "./game-icon.svg";
+import micicon from "./mic-icon.svg";
+import networkicon from "./network-icon.svg";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
@@ -38,7 +42,8 @@ import slack from "./collaboration/slack.png";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
-import service3 from "./services/service-3.png";
+// import service3 from "./services/service-3.png";
+import service3 from "./services/service-3.mp4";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -75,73 +80,96 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import cislogo from "./cislogo.png";
+import coelogo from "./coelogo.png";
+import jarvislogo from "./jarvislogo.png";
+import GDGClogo from "./GDGClogo.png";
+import GHRCE from "./GHRCE.png";
+import RGi from "./RGi.png";
+import speaker from "./speaker.png";
+
+import { useCountdown } from "../hooks/useCountdown";
+
 export {
-  brainwave,
-  check,
-  check2,
-  loading1,
-  brainwaveSymbol,
-  brainwaveWhiteSymbol,
-  play,
-  gradient,
-  smallSphere,
-  grid,
-  yourlogo,
-  homeSmile,
-  file02,
-  searchMd,
-  plusSquare,
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
-  loading,
-  background,
-  curve,
-  robot,
-  heroBackground,
-  curve1,
-  curve2,
-  discord,
-  figma,
-  framer,
-  notion,
-  photoshop,
-  protopie,
-  raindrop,
-  slack,
-  service1,
-  service2,
-  service3,
-  lines,
-  stars,
-  coins,
-  done,
-  hero,
-  roadmap1,
-  roadmap2,
-  roadmap3,
-  roadmap4,
-  undone,
-  notification1,
-  notification2,
-  notification3,
-  notification4,
-  benefitCard1,
-  benefitCard2,
-  benefitCard3,
-  benefitCard4,
-  benefitCard5,
-  benefitCard6,
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitIcon4,
-  benefitImage2,
-  discordBlack,
-  facebook,
-  instagram,
-  telegram,
-  twitter,
+	brainwave,
+	check,
+	check2,
+	loading1,
+	brainwaveSymbol,
+	brainwaveWhiteSymbol,
+	play,
+	gradient,
+	smallSphere,
+	grid,
+	yourlogo,
+	homeSmile,
+	file02,
+	searchMd,
+	plusSquare,
+	recording03,
+	recording01,
+	disc02,
+	chromecast,
+	sliders04,
+	loading,
+	background,
+	curve,
+	robot,
+	heroBackground,
+	curve1,
+	curve2,
+	discord,
+	figma,
+	framer,
+	notion,
+	photoshop,
+	protopie,
+	raindrop,
+	slack,
+	service1,
+	service2,
+	service3,
+	lines,
+	stars,
+	coins,
+	done,
+	hero,
+	roadmap1,
+	roadmap2,
+	roadmap3,
+	roadmap4,
+	undone,
+	notification1,
+	notification2,
+	notification3,
+	notification4,
+	benefitCard1,
+	benefitCard2,
+	benefitCard3,
+	benefitCard4,
+	benefitCard5,
+	benefitCard6,
+	benefitIcon1,
+	benefitIcon2,
+	benefitIcon3,
+	benefitIcon4,
+	benefitImage2,
+	discordBlack,
+	facebook,
+	instagram,
+	telegram,
+	twitter,
+	chaticon,
+	gameicon,
+	micicon,
+	networkicon,
+	cislogo,
+	coelogo,
+	jarvislogo,
+	GDGClogo,
+	GHRCE,
+	RGi,
+	speaker,
+
+
 };

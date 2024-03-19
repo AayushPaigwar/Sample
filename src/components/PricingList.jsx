@@ -12,27 +12,24 @@ const PricingList = () => {
         >
           <h4 className="h4 mb-4">{item.title}</h4>
 
-          <p className="body-2 min-h-[4rem] mb-3 text-n-1/50">
-            {item.description}
-          </p>
-
-          <div className="flex items-center h-[5.5rem] mb-6">
-            {item.price && (
-              <>
-                <div className="h3">$</div>
-                <div className="text-[5.5rem] leading-none font-bold">
-                  {item.price}
-                </div>
-              </>
+          <div>
+            {item.imageUrl && (
+              <img
+                src={item.imageUrl}
+                width={50}
+                height={50}
+                alt={item.title}
+                className="w-full h-full object-cover rounded-lg my-4" />
             )}
           </div>
 
+
           <Button
             className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
+            href={item.contact}
             white={!!item.price}
           >
-            {item.price ? "Get started" : "Contact us"}
+            LinkedIn
           </Button>
 
           <ul>
