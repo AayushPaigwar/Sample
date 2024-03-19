@@ -262,7 +262,7 @@ export const benefits = [
     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: "https://github.com/AayushPaigwar/Sample/blob/master/src/assets/games/dataverse.jpg",
+    imageUrl: "../src/assets/games/techno-tiles.jpg",
     // light: true,
   },
   {
@@ -288,7 +288,7 @@ export const benefits = [
     text: "Teams join a Google Meet where one participant draws while the other guesses the word. With a twist, the artist shakes their head for wrong guesses suggested by the audience. Each team takes turns drawing within a time limit, earning points.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: "../src/assets/games/dataverse.jpg",
+    imageUrl: "src/assets/benefits/dataverse.jpg",
   },
   {
     id: "5",
