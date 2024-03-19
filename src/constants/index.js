@@ -35,7 +35,8 @@ import {
   sliders04,
   speaker,
   telegram,
-  twitter
+  twitter,
+  technotiles,
 } from "../assets";
 
 export const navigation = [
@@ -262,7 +263,7 @@ export const benefits = [
     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: "../src/assets/games/techno-tiles.jpg",
+    imageUrl: technotiles,
     // light: true,
   },
   {
